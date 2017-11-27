@@ -1,0 +1,18 @@
+﻿<jscompress public="http://www.jscompress.cn/" command="import-combineset">
+<combinefile path="unew.JS">
+<sourcefile path="..\js\base.js" />
+<sourcefile path="..\js\portal.js" />
+<sourcefile path="..\js\utils.js" />
+<sourcefile path="..\js\config.js" />
+<sourcefile path="..\js\sdmap.js" />
+<sourcefile path="..\js\plot.js" />
+<sourcefile path="..\js\rightmenu.js" />
+<sourcefile path="..\js\popup.js" />
+<sourcefile path="..\js\tools.js" />
+<sourcefile path="..\js\widgets.js" />
+<sourcefile path="..\js\wmswmts.js" />
+<sourcefile path="..\js\data.js" />
+<sourcefile path="..\js\qsgk.js" />
+<sourcefile path="..\js\frame.js" />
+</combinefile>
+</jscompress>

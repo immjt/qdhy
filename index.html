@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="overflow:auto;overflow-x:hidden">
+<head>
+	<title>test</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	
+    <link rel="stylesheet" type="text/css" href="third/ztree/zTreeStyle.css" />
+    <link rel="stylesheet" type="text/css" href="third/boot/bootstrap.css" />
+    <link rel="stylesheet" href="third/jqueryui/themes/base/jquery.ui.all.css" />
+    <link rel="stylesheet" href="third/jpicker/css/jpicker-1.1.6.min.css" />
+    <link rel="stylesheet" type="text/css" href="third/jqgrid/ui.jqgrid.css"/>
+
+     <link rel="stylesheet" type="text/css" href="css/iframe.css" />
+    <link rel="stylesheet" type="text/css" href="css/mainUI.css" />
+    <link rel="stylesheet" type="text/css" href="css/tools.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/widget.css" />
+    <link rel="stylesheet" type="text/css" href="css/plot.css" />
+
+
+
+    <script src="third/jquery.min.js" type="text/javascript"></script>
+    <script src="third/boot/bootstrap-paginator.js" type="text/javascript"></script> 
+    <script src="third/ztree/jquery.ztree.all-3.5.js" type="text/javascript"></script>
+    <script src="third/hashtable.js" type="text/javascript"></script>
+    <script src="third/util.js" type="text/javascript"></script>
+    <script src="third/jquery.idTabs.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Openlayers/OpenLayers.js"></script>
+    <script  src="un/unew.min.JS" type="text/javascript"></script>
+</head>
+
+
+<body style="position:absolute;overflow:hidden;height:100%;width:100%;"    oncontextmenu="return false;">
+    <div id = "left_center">
+        <div id = "left" >
+            <div id="contentPanel" data-calc-width="100%" style="width: 100%;height: 100%;position: relative;">
+                <div  id="Div_query" >
+                    <div class="title"><div id="img_js"></div>信息检索</div>
+                    <div class="d_query">
+                    <div class="d_item"><p>养殖场性质:</p><input d="1"/><p>占地面积:</p><input d="2"/></div>
+                    <div class="d_item"><p>水面面积:</p><input d="3"/><p>养殖品种:</p><input d="4"/></div>
+                    <div class="d_item"><p>养殖模式:</p><input d="5"/><p>产业类型:</p><input d="6"/></div>
+                    <div class="d_item"><p>年产量:</p><input d="8"/><p>年用水:</p><input d="9"/></div>
+                    <div class="d_item"><p>年产值:</p><input d="10"/><p>其他:</p><input d="12"/></div>
+                    <div class="d_item"><p>所属区划:</p><input style="width:268px;" d="11"/></div> 
+                    <div style="height:30px;width: 96%;"><button id="btn_Query" class="btn btn-default">查询</button></div>
+                    <div id="con_tree" class="ztree"></div>
+                    </div>
+                </div>
+                <div data-calc-height="100%-255px" style="margin-top:10px">
+                    <div class="title"><div id="img_list"></div>结果列表
+                    <button id="btn_return" type="button" class="btn btn-default btn-xs">返回</button></div>
+                    <div id="qsgk_tree" class="ztree"></div>
+                    <div id="D_list" data-calc-height="100%-40px"  style="overflow-y: scroll;display:none"> 
+                        <ul id="ul_list"></ul>
+                        <div id="pag"></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div id = "center" data-calc-width="100%-359px">
+            <div id = "rightWidgetDiv"></div>
+            <div id='toolDiv' class='transparent_toolbar'></div>
+            <div id="mapmain" style = "height:100%;width:100%;">
+            <div id = "mapDiv" style = "height:100%;width:100%; float:left">
+            </div>
+            <div class="float_menu active"><span></span></div>
+            <div class="gropbox">
+                <div class="gropboxHeader"></div>
+                <div class="table_card">
+                    <ul class="tab">
+                        <li id="li_gk" class="active">概况</li>
+                        <li id="li_xq">详情</li>
+                    </ul>
+                    <div class="tabCon">
+                        <div id="gk"></div>
+                        <div id="xq"></div>
+                    </div>
+                </div>
+                <div class="close_x"></div>
+            </div>
+        <div id = "left_hidden" title = "收起左栏" ></div>
+
+</div>
+</div>
+</body>
+
+</html>

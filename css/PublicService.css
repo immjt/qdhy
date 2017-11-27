@@ -1,0 +1,101 @@
+﻿.text-ellipsis
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/*====================================================================================================*/
+#search_div .left_query_text
+{
+    width: 228px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 8px;
+    border: #b3b3b3 solid 1px;
+    border-right: none;
+    outline: 0;
+}
+
+#search_div .search_btn
+{
+    margin-top: 8px;
+    margin-left: -1px;
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background: url(../images/leftDiv/combg.png) no-repeat -225px -89px;
+    outline: 0;
+}
+
+.myplot .pageControl
+{
+    width: 200px;
+    height: 40px;
+    background-color: #f9f9f9;
+    color: #3b3b3b;
+    position: relative;
+}
+#div_resultlist
+{
+    width: 300px;
+    height: 380px;
+    overflow: auto;
+}
+
+#ul_resultlist .li_resultlist
+{
+    background-color: #fff;
+    color: #3b3b3b;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    display: block;
+    padding: 10px;
+    margin: 2px 2px 2px 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#ul_resultlist .li_resultlist .img-info
+{
+    float: left;
+    width: 100px;
+    height: 65px;
+    margin: 0 10px 0 0;
+}
+#ul_resultlist .li_resultlist img
+{
+    width: 100px;
+    height: 65px;
+}
+#ul_resultlist .li_resultlist .basic-info .mc
+{
+    font-size: 13px !important;
+}
+#ul_resultlist .li_resultlist.active{
+    border: 1px solid blue;
+}
+#ul_resultlist .li_resultlist.active .mc {
+    color: #2020CC;
+}
+
+#ul_resultlist .li_resultlist .basic-info .dz
+{
+    height: 26px;
+    overflow: auto;
+    padding-top: 5px;
+    color: #848484 !important;
+    font-size: 11px !important;
+}
+#ul_resultlist .li_resultlist .basic-info .tel
+{
+    padding-top: 5px;
+    color: #848484 !important;
+    font-size: 11px !important;
+}
+#PS_pageControl
+{
+    text-align: center;
+}

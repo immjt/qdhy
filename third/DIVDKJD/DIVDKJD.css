@@ -1,0 +1,251 @@
+﻿h2
+{
+    height: 28px;
+    background-image: url(../../../pic/title_bg.png);
+    background-repeat: repeat-x;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+}
+
+.tip
+{
+    line-height: 30px;
+    text-indent: 30px;
+    color: Red;
+}
+
+.container
+{
+    margin: 10px 20px;
+}
+
+.container .xminfo .head
+{
+    border: solid 1px #ccc;
+    background: #efefef;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: url(../images/up.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+.container .xminfo .head.show
+{
+    background-image: url(../images/down.png);
+}
+
+.container .xminfo .head:hover
+{
+    background-color: #E9E9E9;
+}
+
+.container .xminfo .info
+{
+    display: none;
+}
+
+.container .xminfo .info ul
+{
+    border: solid 1px #ccc;
+    border-top: none;
+    line-height: 25px;
+}
+
+.container .xminfo .info ul li
+{
+    float: left;
+    width: 24%;
+    text-indent: 10px;
+    border-right: solid 1px #ccc;
+}
+
+.container .xminfo .info ul li:last-child
+{
+    border: none;
+}
+
+#fktz
+{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#fktz h3
+{
+    line-height: 30px;
+    font-size: 28px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.option a
+{
+    display: block;
+    background: #efefef;
+    border: solid 1px #ccc;
+    padding: 5px 10px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.option a:hover
+{
+    background: #e4e4e4;
+}
+
+#fktz input[type='text']
+{
+    border: none;
+    border-bottom: solid 1px red;
+    margin: 0 5px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+#fktz textarea
+{
+    border: solid 1px red;
+}
+
+#fktz select
+{
+    border: solid 1px red;
+}
+
+#fktz .add
+{
+    background: url( ../images/manage.png) no-repeat center center;
+    height: 16px;
+    width: 30px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+
+#mask
+{
+    background: #000;
+    opacity: .3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    filter: Alpha(opacity=30);
+}
+
+#DKJD
+{
+    width: 800px;
+    height: 365px;
+    background: #fff;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #747474;
+    position: fixed;
+    top: 0;
+    display: none;
+    right: 0;
+    padding: 10px;
+}
+
+#DKJD p.head
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#DKJD a.close
+{
+    width: 46px;
+    height: 46px;
+    background: url(close.png) no-repeat center center;
+    display: block;
+    position: absolute;
+    right: -23px;
+    top: -23px;
+}
+
+#DKJD ul.rowHead
+{
+    border: solid 1px #ccc;
+    background: #efefef;
+    margin-top: 10px;
+}
+
+#DKJD ul.rowHead li
+{
+    float: left;
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-right: solid 1px #ccc;
+}
+
+#DKJD ul.rowHead li:last-child
+{
+    border-right: none;
+}
+#DKJD ul.row
+{
+    border: solid 1px #ccc;
+    border-top: none;
+}
+
+#DKJD ul.row li
+{
+    float: left;
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-right: solid 1px #ccc;
+    overflow: hidden;
+}
+
+#DKJD ul.row li:last-child
+{
+    border-right: none;
+}
+
+#DKJD input[type='text']
+{
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+#yongtu div
+{
+    margin: 10px;
+}
+#yongtu label
+{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#menuContent
+{
+    background: #fff;
+    position: absolute;
+    overflow: auto;
+    border: solid 1px #ccc;
+}

@@ -1,0 +1,28 @@
+﻿/*login.html*/
+#bg{width:100%;height: 100%;background: url(../images/LoginRegister/bg.jpg) no-repeat center center;overflow: hidden;margin: 0 auto 0 auto;background-attachment: fixed;}
+#main{width: 930px;height: 360px;background: url(../images/LoginRegister/bg_login.png) no-repeat center center;overflow: hidden;margin:100px auto 0 auto;}
+#formBox{width:400px; height:210px; text-align:center; position:relative; margin:100px auto 0 auto;}
+#formBox .title{left:-14px; top:10px; width:466px;font:22px "\5FAE\8F6F\96C5\9ED1"; color:#fff; position:absolute;}
+#formBox .id_user{width:189px; height:24px; line-height:24px; border:0; position:absolute; left:127px; top:68px; outline:0;}
+#formBox .id_usercheck{display:none; color:#FF0000; font-size: 10px;text-align: left;position:absolute; left:329px; top:72px;}
+#formBox .pwd_user{width:189px; height:24px; line-height:24px; border:0; position:absolute; left:127px; top:111px;outline:0;}
+#formBox .pwd_usercheck{display:none; color:#FF0000; font-size: 10px;text-align: left;position:absolute; left:329px; top:115px;}
+#formBox .btn_login{border-style: none;border-color: AliceBlue;border-width: medium;width:120px;height:29px;background:url(../images/LoginRegister/btn_login.png) no-repeat; 
+                    position:absolute; 	left:141px;top:163px; 	cursor:pointer;right: 219px;
+}
+#formBox .register{position:absolute;right: 0px;bottom: 0px;text-decoration: none;color: #FF0000;}
+#formBox .version{width:466px; left:-14px; top:245px;color:#fff;position:absolute;}
+#version
+{
+    position:absolute;
+    bottom:10px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 30px;
+    line-height:30px;
+    background-color: -#0480CC;
+    text-align:center;
+    color:#FFFFFF;
+    font-family:Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif;
+    font-size:12px;
+}

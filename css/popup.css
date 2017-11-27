@@ -1,0 +1,393 @@
+﻿.sp-replacer
+{
+	margin-left: 5px;
+	width: 20px;
+	height: 1px;
+}
+.sp-preview-inner
+{
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+.popupHr
+{
+	margin-top:5px;
+}
+#tabs
+{
+	bottom: 0;
+	position: relative;
+	font-size:12px;
+	margin: 0 8px;
+}
+
+#tabs ul
+{
+	height:30px;border:0px;
+}
+#tabs ul li
+{
+	width:105px;
+	height:30px;
+	line-height:25px;
+	float:left;
+	text-align: center;	
+}
+#tabs ul li a
+{
+	width:105px;
+	height:30px;
+	outline:none;
+	float:left;
+    text-decoration: none;
+    text-align: center;
+    color: #666666;
+    border-top: #cccccc solid 1px;
+    margin-top: 0px;
+    padding: 5px 0;
+}
+#tabs ul li a.selected
+{
+    color: #228efb;
+    border-top: #3b9cfe solid 2px;
+    margin-top: -1px;
+}
+#tabs ul li img{width: 14px;height: 17px;vertical-align: middle;margin-right: 8px;}
+#tabs-li1 img 
+{
+    background: url(../images/smalltool.png) no-repeat -17px -5px;
+}
+#tabs-li2 img 
+{
+      background:url(../images/smalltool.png) no-repeat  -2px -5px;
+}
+#tabs-li3 img 
+{
+      background:url(../images/smalltool.png) no-repeat -34px -5px;
+}
+#tabs>div
+{
+	width:315px;padding:10px 11px 9px 13px;float:left;font-size:12px;
+}
+#pointFromText, #pointToText, #pointSearch{
+	width:200px;height:21px;line-height:21px;border: #b3b3b3 solid 1px;
+}
+
+.pointImgBtnClass
+{
+	position:absolute;
+	top:35px;	right:10px;  width:30px;	height:30px;	cursor:pointer;
+	background:url(../images/mark/mark_red.png) no-repeat top center;
+}
+
+.info_h {
+	float: left;
+	display: inline;
+	margin-top: 3px;
+	font-size:6px;
+}
+.pointPopupBtn
+{
+	background:transparent;color: #228efb;
+	border:0px;
+	width:30px;
+	font-size: 12px;
+	cursor:pointer;
+	outline:none;
+}
+.pointPopupBtn:hover
+{
+	color:red;
+
+}
+.pointNameClass
+{
+	position: absolute;
+	top: -80px;
+	left: 10px;
+	height: auto;
+	width: 250px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.pointRemarkClass
+{
+	position: absolute;
+	top: -50px;
+	left: 10px;
+	height: auto;
+	width: 250px;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing:2px;
+}
+#right_pointNameInfo
+{
+	height: auto;
+	max-width: 280px;
+	font-size: 12px;
+	letter-spacing:2px;
+	padding-left: 8px;
+}
+#mark_title{
+	position: relative;
+    height: 20px;
+    padding-top: 5px;
+}
+.popEditBtn
+{
+	display: none;
+	color: blue;
+	border: none;
+	display:block;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	position: absolute;
+	right: 22px;
+	top: 0
+}
+
+
+#textMark
+{
+	position:relative;
+	margin-right:2px;height:16px;
+}
+#textMarkOk{
+	float: right;
+	margin: 1px 2px;
+	top: 0px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ToolBar/yes.png) no-repeat center;
+	cursor:pointer;
+}
+#textMarkDel {
+	background: url(../images/ToolBar/delete.png) no-repeat center;
+	float: right;
+	margin: 1px 2px;
+	width: 16px;
+	height: 16px;
+	cursor:pointer;
+}
+
+#textId
+{
+
+	margin: 1px 2px;
+	height:16px;
+}
+#address
+{
+	color:#5d5d5d;
+	margin-bottom:15px;
+}
+#phone
+{
+	color:#5d5d5d;
+	margin-bottom:15px;
+}
+#dragImg
+{
+	position:absolute;
+	width:24px;
+	height:24px;
+	background:url(../images/mark/drag.png) no-repeat center;
+	z-index:10000;
+	cursor:pointer;
+}
+
+/**
+ * POI搜索下拉提示
+ *
+ */
+ #poiSearch_suglist{
+ 	position:absolute;top:47px;left:30px;min-width:180px;height:auto;border:1px solid gray;background:white;
+ 	z-index:1005;display:none;
+ }
+ #poiSearch_suglist>div{
+ 	height:25px;line-height:25px;padding-left:10px;
+ 	font-size:12px;cursor:pointer;	
+ 	white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+ }
+ #poiSearch_suglist>div:hover{ background:#ebebeb; } 
+ #poiSearch_suglistclose
+ {
+ 	float:right;cursor:pointer;display: block;text-decoration: underline;height:25px;line-height: 25px;padding-right: 5px;
+ }
+
+/*
+*
+* 标绘样式
+*
+*/
+#mark_title_div{
+	width:300px;height:20px;line-height:20px;font-weight:bold;font-size:12px;color:#046abe;margin-top:-2px;text-overflow:ellipsis;
+}
+
+#pointmark_Popup_editDiv{
+	margin-top:15px;width:300px;height:auto;color:#3f3e3e;
+}
+#pointmark_name{
+	width:210px;height:20px;
+}
+#pointmark_desc{
+	width:250px;height:70px;border: 1px solid #cccccc;font-size: 12px;overflow-y:hidden;
+}
+
+#pointmark_imgdiv{
+	width:300px;height:120px;margin-top:15px;display:none;
+}
+
+#pointmark_imgdiv  ul{
+	list-style:none;
+	padding:0;
+height: 110px;
+	margin-left:10px;	
+
+}
+#pointmark_imgdiv  ul li{
+	list-style:none;
+	padding-left:5px;
+	margin:1px;
+	width:32px;
+	height:32px;
+	float:left;
+	cursor:pointer;
+}
+#pointmark_imgdiv  ul li img{
+	margin:0px;
+	border:0px;
+}
+#pointmark_imgdiv  ul li img.active{
+	border:1px solid gray;
+}
+#pointmark_imgdiv  ul li img:hover{
+	border:1px solid gray;
+}
+
+#textMark { position:relative; }
+
+
+.text_mark_op{
+	 position:absolute;bottom:0px;left:128px;width:46px;height:22px;
+	 background:url(../images/mark2/labelmark.png) no-repeat 0 0;overflow:hidden;
+}
+
+.text_mark_op div{
+	float: left;
+    margin: 1px;
+	top: 0px;
+	width: 19px;
+	height: 20px;
+	background: url(../images/mark2/labelmark.png) no-repeat 0 -33px;
+	cursor:pointer;
+}
+
+#textMarkOk:hover{background-position: 0px -58px;}
+#textMarkDel {background-position: -23px -33px;}
+#textMarkDel:hover {background-position: -23px -58px;}
+
+
+.toolbtn{
+	height:20px;width:60px;
+	background: url(../images/mark/button.png) no-repeat center;
+	text-align: center;
+    padding-top: 7px;
+}
+
+/*
+
+	*/
+	#line_title
+	{
+		width: 290px;
+		height: 20px;
+		font-weight: bold;
+		font-size: 12px;
+		color: #046abe;
+		margin-top: -2px;
+		text-overflow: ellipsis;
+	}
+	#line_title input
+	{
+		width:20px;height:20px;float:right;border:none;cursor:pointer;
+	}
+	#popEditBtn
+	{
+		background:url(../images/mark/point_edit.png) no-repeat center;
+	}
+	#popDelBtn
+	{
+		background:url(../images/mark/point_delete.png) no-repeat center;
+	}
+	#linePopup1
+	{
+		margin-top:15px;
+		width: 300px;
+		height: auto;
+		color: #3f3e3e;
+	}
+	#linePopup1 #span2
+	{
+		vertical-align:55px;
+	}
+	#popup1BtnDiv>div
+	{
+		border:none;
+		cursor:pointer;
+		width:60px;
+		height:20px;
+		text-align: center;
+		line-height:20px;
+		background:url(../images/mark/button.png) no-repeat center;
+		display: inline-block;
+	}
+	#linePopup1BtnDiv div:hover
+	{
+		color:blue;
+	}
+	#lineSave
+	{
+		float:left;
+		margin-left:90px
+	}
+	#lineDelete
+	{
+		float:left;
+		margin-left:10px;
+	}
+	#linePopup2
+	{
+		margin-top:15px;
+		width: 300px;
+		height: auto;
+		color: #3f3e3e;
+		display:none;
+	}
+	#lineLength
+	{
+		width:100%;
+		height:30px;
+		line-height:30px;
+	}
+	.olFramedCloudPopupContent
+	{
+		overflow-x: hidden !important;
+		overflow-y: hidden !important;
+	}
+
+	#poi_correct {
+		position: absolute;
+		right: 20px;
+		top: 4px;
+		cursor: pointer;
+		background: url('../images/leftDiv/icon_qipao_correct.png') no-repeat;
+		width: 14px;
+		height: 13px;
+	}
+
+
+#pointPopupContent{max-height: 260px;overflow-y: auto;}

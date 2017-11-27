@@ -1,0 +1,36 @@
+﻿
+/*标绘*/
+
+
+#stImgmetaInfo {
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
+    z-index: 1005;
+    display: none;
+     
+}
+#stImgmetaInfo #metalist {
+    background-color: white;
+    border: 1px solid blue;
+    width: 180px;
+    display: none;
+}
+#metalist #imgmeta_spin {
+    margin-top: 5px;
+    position: absolute;right: 10px;
+}
+#metalist>div {
+    position: relative; line-height: 25px; padding: 1px 5px 0px 10px;
+}
+#metainfo {
+    cursor: pointer;
+    color: white;
+ 
+}
+#stImgmetaInfo li {
+    list-style: none;
+    line-height: 20px;
+   cursor: pointer;
+    
+}

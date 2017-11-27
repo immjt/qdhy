@@ -1,0 +1,13 @@
+﻿<jscompress public="http://www.jscompress.cn/" command="import-combineset">
+<combinefile path="style.css">
+<sourcefile path=".\iframe.css" />
+<sourcefile path=".\mainUI.css" />
+<sourcefile path=".\tools.css" />
+<sourcefile path=".\popup.css" />
+<sourcefile path=".\widget.css" />
+<sourcefile path=".\plot.css" />
+<sourcefile path=".\emergency.css" />
+<sourcefile path=".\PublicService.css" />
+<sourcefile path=".\TaiFeng.css" />
+</combinefile>
+</jscompress>

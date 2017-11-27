@@ -1,0 +1,32 @@
+﻿#tab_taifeng_div .year_div
+{
+    margin: 0px auto;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    border-bottom: 1px solid #dadbde;
+}
+#tab_taifeng_div .year_div .year_label
+{
+    vertical-align: middle;
+}
+#tab_taifeng_div .taifenglist_div
+{
+    margin: 0px auto;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    border-bottom: 1px solid #dadbde;
+}
+
+#tab_taifeng_div .taifenglist_div .panel_div
+{
+}
+
+
+
+#tab_taifeng_div .taifengposition_div
+{
+    margin: 0px auto;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    border-bottom: 1px solid #dadbde;
+}

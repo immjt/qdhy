@@ -1,0 +1,110 @@
+﻿
+.q_boundry{border: 1px solid #808080;padding: 5px;margin-left: 10px;}
+.q_boundry>input{
+    width: 80px;
+    margin-top: 5px;
+}
+.noShow{display: none;}
+.cmdbtn{
+    width: 60px;height: 20px;margin:4px 20px;
+}
+
+#result_lbl{
+    margin: 10px;
+display: block;
+font-size: 14px;
+color: #00F;
+}
+
+
+#boat_detail{
+    margin: 10px 0 0 10px;
+border: 1px solid #CACAD6;
+width: 270px;
+}
+
+#boat_oper{margin: 5px 10px;
+position: relative;
+text-align: center;}
+#boat_oper>input{	width: 95px;margin:2px 10px;text-align: center;height: 20px;}
+
+#typeCounter{width: 100%;height: 550px;
+overflow-y: scroll;}
+#typeCounter>div{padding: 5px;cursor: pointer;border: 1px solid #DAD3D3;margin:0 5px;background-repeat: repeat;}
+
+#typeCounter>div:hover{background-color: #DAF6E2}
+#typeCounter>div span{margin-right: 10px;}
+.typeTitle{font-size: 16px;color: #00F;font-weight: bold;margin-right:20px;}
+.typeSelected{background-color: #9EA9CE;}
+.itemTitle{	position:relative;}
+.itemTitle .visBtn{position:absolute;right: 5px;top: 0;width: 24px;height:24px;background: url(../images/emergency/eye_close.png) no-repeat; }
+.itemContent{position: relative;}
+.itemContent>.itemList{ }
+.itemContent>.itemList>div:hover{background-color: #DDD8FF;}
+.itemContent>.pager{padding: 5px 0 3px 67px;}
+.itemContent>.pager>.curPage{width: 50px;background-color: #DBDBDB;color: #162C35;}
+.itemContent>.pager>span{font-size: 16px;font-weight: bolder;margin: 0 5px 0 3px !important;}
+.boat_icon{    display: inline-block;
+    width: 16px;
+    height: 24px;
+    margin-right: 13px;}
+.CDMA_0{background-position-x: -167px;}
+.CDMA_1{background-position-x: -34px;}
+.AIS_IN_0{background-position-x: -190px;}
+.AIS_IN_1{background-position-x: -82px;}
+.AIS_OUT_0{background-position-x: -190px;}
+.AIS_OUT_1{background-position-x: -102px;}
+.AIS_STATION_1{background-position-x: -116px;}
+.BD_0{background-position-x: -149px;}
+.BD_1{background-position-x: -17px;}
+.ZHIFA_0{width: 31px;background-position:-64px -28px;}
+.ZHIFA_1{width: 31px;background-position-y:-30px;}
+.JIULAO_0{width: 31px;background-position:-64px -28px;}
+.JIULAO_1{width: 31px;background-position:-33px -28px;}
+
+#emergency_dialog{
+	position: relative;width: 280px;height: 300px;background-color: #fff;z-index: 1100;
+
+}
+#boat_track_panel>*{margin: 3px 4px;}
+#boats_sel{width: 150px;}
+.datepicker{width: 130px;}
+#trace_oper{}
+#trace_oper>input{width: 60px;margin: 5px 5px;height: 20px;}
+#trace_anim{}
+#trace_anim>input{width: 60px;height: 22px;margin-left: 40px;}
+.label_slider{width: 170px;position: relative;top: -5px;left: 50px;}
+
+#boat_trace_list{
+width: 100%;display: none;
+height: 100%;overflow: scroll;position: relative;z-index: 1020;background-color: #fff
+}
+#boat_query_result{display: none;}
+
+.result_label{
+	margin-left: 30px;
+display: block;
+font-size: 14px;
+font-weight: bold;
+color: #53A2EB;
+margin-top: 10px;
+}
+
+#pop_boat_trail{
+	position: relative;
+left: 50%;
+margin-left: -20px;
+}
+.popmain{line-height: 20px;
+margin-left: 5px;}
+.popTiltle{
+position: relative;
+margin-bottom: 15px;
+color: #3B9CFE;
+font-weight: bold;
+margin-left: 5px
+}
+
+.ui-state-highlight{
+	background-color: #ACA6F3 !important;
+background-image: none !important;}

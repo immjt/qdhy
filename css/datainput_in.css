@@ -1,0 +1,70 @@
+﻿.pagetop
+{
+    border-bottom: 1px inset #2888C6;
+    padding: 0px 0px 0px 10px;
+}
+.pagetoplogo
+{
+    width: 34px;
+    height: 40px;
+    background: url(../../images/pagelogo.png) no-repeat center center;
+    float: left;
+}
+.pagetoptitle
+{
+    line-height: 40px;
+    color: #3a3a3a;
+    letter-spacing: 2px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pagecontent
+{
+    width: 80%;
+    margin: auto;
+}
+.step
+{
+    float:left;
+    width: 30%;
+    margin: 20px 5px 20px 5px;
+    border: solid 1px #eeeeee;
+    text-align: center;
+}
+.stephead
+{
+    width: 100%;
+}
+.stephead img
+{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+}
+.stephead span
+{
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+}
+.stepcontent
+{
+    width: 100%;
+}
+.stepcontent .fileaddr
+{
+    width: 90%;
+    height: 20px;
+}
+.stepcontent .fileproblem,.stepcontent .inputproblem
+{
+    width: 90%;
+}
+.stepcontent .downmuban_btn,.stepcontent .checkdata_btn,.stepcontent .inputdata_btn
+{
+    width:50px;
+    margin: 10px auto;
+}

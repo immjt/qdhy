@@ -1,0 +1,29 @@
+.frame--realistic {
+    perspective: 200em;
+}
+.door--open {
+    transform-origin: 0 0 /*whatever y value you wish*/;
+    transform: rotateY(-45deg);
+}
+.door {
+    height: 100%;
+    background-image:url("./img/21.png");
+    background-color: darkgray;
+}
+.frame
+{
+    margin: .5em auto;
+    border: solid 1em #7E5F49;
+    border-bottom: none;
+    width: 5em;
+    height: 6.5em;
+}
+.door--ani {
+    transform-origin: 0 0;
+    animation: doorani 2.3s ease-in-out infinite alternate;
+}
+@keyframes doorani {
+    from { transform: rotateX(-63deg); }
+    to { transform: rotateY(63deg); }
+}
+

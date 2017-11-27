@@ -1,0 +1,277 @@
+﻿/*
+	右侧功能面板
+  */
+#rightWidgetDiv{position:absolute;top:90px;right:0px;width:80px;z-index:1000;}
+
+
+/*实时信息一级菜单*/
+#Rwidget_ul{ background:url(../images/rightBtn/contentbg.png)  center;font-size:14px;}
+#Rwidget_ul>li{color:White;text-align: center;line-height: 30px; height:33px;padding-right:3px;cursor:pointer;}
+/*#Rwidget_ul>li:hover{background:url(../images/rightBtn/contenbg_sel.png);}
+#Rwidget_ul>li.active{background:url(../images/rightBtn/contenbg_sel.png); color:#FBF206; }*/
+#Rwidget_ul div{ float:left; margin-left:5px; margin-top:2px;background:url(../images/ToolBar/toolbar.png) no-repeat center; width:28px;height:28px;}
+
+
+#weather div{background-position:0px -20px;}
+#weather div.active{background-position:0px -48px;}
+/*海况start*/
+#seastate div{background-position:-114px -78px;}
+#seastate div.active{background-position:-86px -78px;}
+/*海况end*/
+/*台风start*/
+#taifeng div{background-position:-226px -78px;}
+#taifeng div.active{background-position:-196px -78px;}
+/*台风end*/
+#gzfw_fw>div{background: url(../images/toolbar/toolbar.png);
+    width: 25px;
+    height: 27px;
+    background-position: -164px -78px;}
+    #gzfw_fw>div.active{background-position: -138px -78px;}
+/*水质监测*/
+#szjc div{background-image:url(../images/rightBtn/sz.png);}
+#szjc div.active{background-image:url(../images/rightBtn/sz1.png);}
+.weather_bk {
+  background-image:url(../images/weather/bk2.png);
+  width:58px;height:13px;margin:0 5px 0 0;padding: 0;
+  display:inline-block;
+}
+.weather_ubk{
+  margin:0;margin-right:2px;padding:0;
+  background-image:url(../images/weather/uvbk.png);
+  background-repeat:repeat-x;
+  height:13px;width: 10px;float:left;
+}
+
+#road div{background-position:-28px -20px;}
+#road div.active{background-position:-28px -48px;}
+.div_content_r{margin-left: 20px;
+margin-top: 5px;
+margin-bottom: 5px;}
+.span_road{ color:#3B9CFE;}
+.div_shigong{ margin-right:10px;float:left;width:40px;height:40px;background-image:url(../images/Road/shigong.png)}
+.div_shigu{margin-right:10px;float:left;width:40px;height:40px;background-image:url(../images/Road/shigu.png)}
+.div_left{ float:left; margin-left:20px;}
+.div_right{ margin-left:200px;}
+.span_active_road{ color:Red;} 
+.span_normal_road{color:#5DB35A}
+#enviroment div{background-position:-56px -20px;}
+#enviroment div.active{background-position:-56px -48px;}
+
+#water div{background-position:-84px -20px;}
+#water div.active{background-position:-84px -48px;}
+
+#rain div{background-position:-114px -20px;}
+#rain div.active{background-position:-114px -48px;}
+
+#scenic div{background-position:-140px -20px;}
+#scenic div.active{background-position:-140px -48px;}
+
+#video div{background-position:-168px -20px;}
+#video div.active{background-position:-168px -48px;}
+
+#population div{background-position:-196px -20px;}
+#population div.active{background-position:-196px -48px;}
+
+#economy div{background-position:-224px -20px;}
+#economy div.active{background-position:-224px -48px;}
+
+
+/*实时信息二级菜单*/
+.rightBtnUl{position:absolute;right:80px; height:auto;display:none;}
+.rightBtnUl>li {background:url(../images/rightBtn/contenbg_sel.png) ;/* border: 1px #26acf5 solid;*/}
+.rightBtnList{width: auto;height:27px;font-size:12px;line-height:25px;text-align:center;display:block;color:White;font-weight:normal;}
+.rightBtnList.active{color:#FBF206;}
+.rightBtnList:hover{color:#FBF206; font-weight:bold;}
+
+
+.selitem {
+  color: #FBF206;
+  font-weight:bold;
+}
+.legenddiv {
+  position: absolute;bottom: 20px;right: 40px;z-index: 900;
+}
+
+
+a.abtn{height:30px;width:21px;overflow:hidden;}
+a.aleft{float:left;background:url(../images/scenic/leftarrow.png) no-repeat 0px 50%;}
+a.agrayleft{cursor:default;background-position:-1px 50%;}
+a.aright{float:right;background-position:-17px 50%;background:url(../images/scenic/rightarrow.png) no-repeat 0px 50%;}
+a.agrayright{cursor:default;background-position:-51px 50%;}
+.scrolllist{width:212px;height:35px;margin:5px auto;}
+.scrolllist .imglist_w{width:165px;height:35px;overflow:hidden;float:left;position:relative;/*必要元素*/}
+.scrolllist .imglist_w ul{width:500px;position:absolute;left:0px;top:0px;}
+.scrolllist .imglist_w li{width:32px;float:left;padding:0;}
+.scrolllist .imglist_w li img{padding:0;}
+.scrolllist .imglist_w li a{color:#3366cc;text-decoration:none;float:left;}
+.scrolllist .imglist_w li a:hover img{filter:alpha(opacity=86);-moz-opacity:0.86;opacity:0.86;}
+.scrolllist .imglist_w li p{height:35px;line-height:24px;overflow:hidden;float:left;}
+
+.jianjie {line-height: 24px;font-size: 13px;font-weight: bold;}
+.jianjie span {
+  font-size: 13px;
+  font-weight: normal;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+/***********************pageNumber*************************************/
+.pageDiv li{
+  margin: 0 2px;
+  padding: 0 3px;
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+}
+.pageDiv ul{
+  height: 30px;
+  line-height:30px;
+  vertical-align:bottom;
+  font-size:13px;
+  text-align:center;
+}
+.pageDiv .page .pageoff {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 6px;
+  margin: 0 2px;
+  color: #bfbfbf;
+  background: #f2f2f2;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.pageDiv .page .pagenow {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 6px;
+  margin: 0 2px;
+  color: #fff;
+  background-color: #428bca;
+  border: 1px solid #428bca;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.pageDiv .page .pagepot{
+  color:#3790e1;
+  margin:0;
+  padding:0;
+}
+.pageDiv .page .pageon {
+  display: inline-block;
+  color: #428bca;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  margin: 0 2px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+.pageDiv .page .pageon:hover{
+  color:#ffffff;
+  background:#428bca;
+}
+/***********************pageNumber*************************************/
+
+/***********************专题统计*************************************/
+.maindiv{
+height: 270px;
+width: 500px;
+}
+.main{
+height: 100px;
+width: 250px;
+}
+.titlediv{
+position: absolute;
+width: 70px;
+
+background-color: #ECECEC;
+height: 280px;
+margin-left: 5px;
+}
+.titlediv>div{
+  cursor: pointer;
+}
+#staticsDiv{
+position: relative;
+margin-left:80px;
+ 
+width: 420px;
+height: 280px;
+background: #fff;
+}
+#D_Linechart{
+position: relative;
+ 
+width: 420px;
+height: 280px;
+background: #fff;
+}
+.sta_Dtab
+{
+width: 420px;
+height: 20px;
+}
+.sta_Dtab li{
+float:left;
+margin-left:20px;
+width:40px;
+text-align:center;
+background-color:#DCD5D5;
+cursor:pointer;
+}
+.sta_Dtab li.active{
+background-color:#EDBCBC;
+}
+.stc_hispic{
+    background: url(../images/statics/statics.png) no-repeat -2px -34px;
+    width: 26px;
+    height: 24px;
+    margin: 10px auto;
+}
+.stc_hispic.active{
+    background: url(../images/statics/statics.png) no-repeat -2px -4px;
+}
+.stc_xqpic{
+    background: url(../images/statics/statics.png) no-repeat -32px -32px;
+    width: 26px;height: 26px;margin: 10px auto;
+}
+.stc_xqpic.active{
+    background: url(../images/statics/statics.png) no-repeat -32px -2px;
+}
+.stc_title{
+ font-size: 12px;
+line-height: 20px;
+width: 70px;
+color: #686868;
+text-align: center;
+}
+.stc_title.active{
+  background-color: #3B9DFD;
+color: #FFF;
+padding: 1px 6px;
+margin-left: -6px;
+}
+/***********************专题统计*************************************/
+
+/***********************海上粮仓*************************************/
+#hslc_close
+{ background: url(../images/info/close.png);
+  width: 18px;
+height: 18px;
+z-index: 99999;
+position: absolute;
+right: 48px;
+bottom: 230px; cursor:pointer;
+    }
+#hslc_lengend
+{
+background-color: #259DF4;z-index:980;border:1px solid #696969;position:absolute;right:50px;bottom:50px;
+    }
+  
